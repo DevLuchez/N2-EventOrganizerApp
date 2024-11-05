@@ -1,4 +1,4 @@
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D3BBF7&height=120&section=header"/>
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=9aecd4&height=120&section=header"/>
 
 # N2 - Event Organizer App
 Aplicativo criado para aprendizagem em Desenvolvimento Mobile.
@@ -12,5 +12,7 @@ O "Organizador de Eventos" é um aplicativo mobile que permite aos usuários ger
 ![Firebase](https://img.shields.io/badge/-Firebase-0D1117?style=for-the-badge&logo=firebase&labelColor=0D1117&textColor=0D1117)&nbsp;
 
 ## Paleta de cores utilizada
+![image](https://github.com/user-attachments/assets/57a3c547-2a20-4ffc-a7ae-ec5a30efc7e4)
 
-<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=D3BBF7&height=120&section=footer"/>
+
+<img width=100% src="https://capsule-render.vercel.app/api?type=waving&color=9aecd4&height=120&section=footer"/>
