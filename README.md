@@ -1,16 +1,12 @@
-# n2_event_organizer_app
+# N2 - Event Organizer App
+Aplicativo criado para aprendizagem em Desenvolvimento Mobile.
 
-N2 - Event organizer App (second version)
+## Sobre o Aplicativo
+O "Organizador de Eventos" é um aplicativo mobile que permite aos usuários gerenciar eventos por meio de operações de CRUD (criação, leitura, atualização e exclusão). Cada evento registrado no aplicativo deve ter obrigatoriamente um título e uma breve descrição. O aplicativo tem como foco a simplicidade e eficiência, oferecendo uma interface intuitiva e direta para adicionar e organizar eventos com banco de dados gerenciado via Firebase.
 
-## Getting Started
+## Linguagens utilizadas
+![Flutter](https://img.shields.io/badge/-Flutter-0D1117?style=for-the-badge&logo=flutter&labelColor=0D1117&textColor=0D1117)&nbsp;
+![Dart](https://img.shields.io/badge/-Dart-0D1117?style=for-the-badge&logo=dart&labelColor=0D1117&textColor=0D1117)&nbsp;
+![Firebase](https://img.shields.io/badge/-Firebase-0D1117?style=for-the-badge&logo=firebase&labelColor=0D1117&textColor=0D1117)&nbsp;
 
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Paleta de cores utilizada
