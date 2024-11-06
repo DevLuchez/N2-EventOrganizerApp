@@ -11,12 +11,32 @@ Future<void> main() async {
   runApp(EventOrganizerApp());
 }
 
-class EventOrganizerApp extends StatelessWidget {
+// StatefulWidget para permitir a alternância de tema (claro/escuro)
+class EventOrganizerApp extends StatefulWidget {
+  @override
+  _EventOrganizerAppState createState() => _EventOrganizerAppState();
+}
+
+class _EventOrganizerAppState extends State<EventOrganizerApp> {
+  // Variável para controlar o modo de tema atual (light ou dark)
+  ThemeMode _themeMode = ThemeMode.light;
+
+  // Função para alternar entre tema claro e escuro
+  void _toggleTheme() {
+    setState(() {
+      _themeMode = _themeMode == ThemeMode.light ? ThemeMode.dark : ThemeMode.light;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      home: HomePage(),
+      themeMode: _themeMode,
+      theme: ThemeData.light(), // Tema claro
+      darkTheme: ThemeData.dark(), // Tema escuro
+
+      home: HomePage(toggleTheme: _toggleTheme), // Passa a função toggleTheme para o HomePage
     );
   }
 }
